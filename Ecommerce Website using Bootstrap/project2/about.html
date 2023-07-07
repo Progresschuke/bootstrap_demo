@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>SwissKit</title>
+    <link rel="stylesheet" href="../sass/main.css" />
+    <style>
+      section {
+        padding: 40px 0;
+      }
+
+      .card-title {
+        letter-spacing: 0.1rem;
+      }
+
+      ul {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- login Navbar -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-md">
+        <a class="navbar-brand">
+          <span><i class="bi bi-instagram pe-3"></i></span>
+          <span><i class="bi bi-whatsapp pe-3"></i></span>
+          <span><i class="bi bi-facebook"></i></span>
+        </a>
+        <form class="d-flex">
+          <span class="pe-1"
+            ><a class="btn btn-outline-darkred" href="login.html"
+              >Login</a
+            ></span
+          >
+          <span class="ps-1"
+            ><a class="btn btn-outline-darkred" href="../signup.html"
+              >Sign Up</a
+            ></span
+          >
+        </form>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darkred">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#swisskit">Swisskit</a>
+
+        <!-- Mobile Control -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#otheritems"
+          aria-controls="otheritems"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar dropdown -->
+        <div class="collapse navbar-collapse" id="otheritems">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#main"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clothes.html">Clothes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bags">Bags</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="more"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="more">
+                <li>
+                  <a class="dropdown-item" href="#female">Female Wears</a>
+                </li>
+                <li><a class="dropdown-item" href="#male">Male Wears</a></li>
+                <li>
+                  <a class="dropdown-item" href="#unisex">Unisex Shoes</a>
+                </li>
+                <li><a class="dropdown-item" href="#pants">Pants</a></li>
+                <li><a class="dropdown-item" href="#shorts">Shorts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- form -->
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </body>
+</html>

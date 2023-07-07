@@ -1,0 +1,22 @@
+
+//import the function and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+
+ $custom-theme-colors: (
+     "altlight": #f2ebfa,
+     "altdark": #522199,
+     "altprimary": #c29938,
+     "darkred": #4e0000,
+     "darktheme": rgba(7, 4, 12, 0.541),
+     "lightblue": #6D6E74,
+     "reviewstar": #FDCC0D
+ );
+
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

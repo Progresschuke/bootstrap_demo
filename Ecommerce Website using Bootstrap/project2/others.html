@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>SwissKit</title>
+    <link rel="stylesheet" href="../sass/main.css">
+    <style>
+        section{
+            padding: 5px 0;
+        }
+        
+        .card-title{
+          letter-spacing: .1rem;
+        }
+
+        ul {
+          list-style: none;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- login Navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-md">
+      <a class="navbar-brand">
+        <span><i class="bi bi-instagram pe-3"></i></span>
+        <span><i class="bi bi-whatsapp pe-3"></i></span>
+        <span><i class="bi bi-facebook"></i></span>
+      </a>
+      <form class="d-flex">
+        <span class="pe-1"><a class="btn btn-outline-darkred" href="login.html">Login</a></span>
+        <span class="ps-1"><a class="btn btn-outline-darkred" href="../signup.html">Sign Up</a></span>
+      </form>
+    </div>
+  </nav>
+
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darkred">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#swisskit">Swisskit</a>
+
+        <!-- Mobile Control -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#otheritems" aria-controls="otheritems" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar dropdown -->
+        <div class="collapse navbar-collapse" id="otheritems">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clothes.html">Clothes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bags.html">Bags</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="more" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="more">
+                <li><a class="dropdown-item" href="female.html">Female Wears</a></li>
+                <li><a class="dropdown-item" href="male.html">Male Wears</a></li>
+                <li><a class="dropdown-item" href="footwear.html">Unisex Shoes</a></li>
+                <li><a class="dropdown-item" href="#pants">Pants</a></li>
+                <li><a class="dropdown-item" href="#shorts">Shorts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- form -->
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+
+    
+
+    <!-- Products-1 -->
+<section id="product1">
+    <div class="container-lg">
+      <div class="text-center m-5">
+        <h2>PRODUCT</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 justify-content-center align-items-center">
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/14.png" class="card-img-top" alt="Blazer Overcoat">
+            <div class="card-body">
+              <h5 class="card-title">White Spotted Pyjamas</h5>
+              <p class="card-text text-muted">Compliments all seasons.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$49.99</span>
+                  <span class="text-decoration-line-through">$70.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/15.png" class="card-img-top" alt="Brown Leather Shoes">
+            <div class="card-body">
+              <h5 class="card-title">Flowered Nightie</h5>
+              <p class="card-text text-muted">Durable for all weather.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$42.99</span>
+                  <span class="text-decoration-line-through">$60.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/16.png" class="card-img-top" alt="Green Jacket Hoodie">
+            <div class="card-body">
+              <h5 class="card-title">Orange-stripped Wear</h5>
+              <p class="card-text text-muted">Gives extra warmth.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$56.99</span>
+                  <span class="text-decoration-line-through">$80.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/17.png" class="card-img-top" alt="Blue T-Shirt Jeans">
+            <div class="card-body">
+              <h5 class="card-title">Fruity Pink Nightie</h5>
+              <p class="card-text text-muted">Work smart in the office.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$28.99</span>
+                  <span class="text-decoration-line-through">$40.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+ 
+
+<!-- Products-2 -->
+  <section id="product2" class="mt-5">
+    <div class="container-lg mt-1">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 justify-content-center align-items-center">
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/18.png" class="card-img-top" alt="Double-Breasted Coat">
+            <div class="card-body">
+              <h5 class="card-title">Double-Breasted Coat</h5>
+              <p class="card-text text-muted">Fashionable and Comfortable.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$56.99</span>
+                  <span class="text-decoration-line-through">$80.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/19.png" class="card-img-top" alt="High-heeled Boots">
+            <div class="card-body">
+              <h5 class="card-title">High-heeled Boots</h5>
+              <p class="card-text text-muted">suitable for work and outings.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$39.99</span>
+                  <span class="text-decoration-line-through">$55.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/20.png" class="card-img-top" alt="RnB Dotted Dress">
+            <div class="card-body">
+              <h5 class="card-title">RnB Dotted Dress</h5>
+              <p class="card-text text-muted">Polka-dot dress for outing.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$41.99</span>
+                  <span class="text-decoration-line-through">$59.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/21.png" class="card-img-top" alt="Black Waist-Fitted Skirt">
+            <div class="card-body">
+              <h5 class="card-title">Black Waist-Fitted Skirt</h5>
+              <p class="card-text text-muted">Smart office skirt.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$42.99</span>
+                  <span class="text-decoration-line-through">$60.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      <!-- Products-2 -->
+  <section id="product2" class="mt-5">
+    <div class="container-lg mt-1">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 justify-content-center align-items-center">
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/22.png" class="card-img-top" alt="Double-Breasted Coat">
+            <div class="card-body">
+              <h5 class="card-title">Double-Breasted Coat</h5>
+              <p class="card-text text-muted">Fashionable and Comfortable.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$56.99</span>
+                  <span class="text-decoration-line-through">$80.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/23.png" class="card-img-top" alt="High-heeled Boots">
+            <div class="card-body">
+              <h5 class="card-title">High-heeled Boots</h5>
+              <p class="card-text text-muted">suitable for work and outings.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$39.99</span>
+                  <span class="text-decoration-line-through">$55.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/24.png" class="card-img-top" alt="RnB Dotted Dress">
+            <div class="card-body">
+              <h5 class="card-title">RnB Dotted Dress</h5>
+              <p class="card-text text-muted">Polka-dot dress for outing.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$41.99</span>
+                  <span class="text-decoration-line-through">$59.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card shadow border-0">
+            <img src="img3/25.png" class="card-img-top" alt="Black Waist-Fitted Skirt">
+            <div class="card-body">
+              <h5 class="card-title">Black Waist-Fitted Skirt</h5>
+              <p class="card-text text-muted">Smart office skirt.</p>
+              <div class="py-2">
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+                <i class="bi bi-star-fill text-reviewstar"></i>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="text-dark">
+                  <span>$42.99</span>
+                  <span class="text-decoration-line-through">$60.99</span>
+                </h6>
+                
+                <!-- Tooltips -->
+                <span class="tt" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                  <a class="text-darkred" href="#"><i class="bi bi-cart4"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Footer -->
+    <section id="footer" class="bg-darkred mt-5">
+      <div class="container text-light">
+        <div class="row text-decoration-none justify-content-around">
+          <div class="col-8 col-md-3 pb-3">
+            <p><h5>Contacts</h5></p>
+            <p>13, Okoromu Close</p>
+            <p>133EF, Bromley</p> 
+            <p>London, UK</p>
+            <p>Www.Wellcoorn.Com</p> 
+            <p>098 444 262 689 3621</p>
+          </div>
+  
+          <div class="col-8 col-md-3 py-3">
+            <h5>Useful Links</h5>
+            <p><a class="text-decoration-none text-light" href="#">Home</a></p>
+            <p><a class="text-decoration-none text-light" href="#">About</a></p> 
+            <p><a class="text-decoration-none text-light" href="#">Contact</a></p>
+            <p><a class="text-decoration-none text-light" href="#">Service</a></p> 
+            <p><a class="text-decoration-none text-light" href="#">Privacy Policy</a></p>
+          </div>
+  
+          <div class="col-8 col-md-3 pb-3">
+            <p><h5>Other Items</h5></p>
+            <p><a class="text-decoration-none text-light" href="#">Shoes</a></p>
+            <p><a class="text-decoration-none text-light" href="#">Bags</a></p> 
+            <p><a class="text-decoration-none text-light" href="#">Nightwears</a></p>
+            <p><a class="text-decoration-none text-light" href="#">Footwears</a></p>
+          </div>
+  
+          <div class="col-8 col-md-3 pb-3">
+            <p><h5>Social Network</h5></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+            <div>
+              <span><a class="text-decoration-none text-light px-1" href="#"><i class="bi bi-instagram"></i></a></span>
+              <span><a class="text-decoration-none text-light px-1" href="#"><i class="bi bi-linkedin"></i></a></span>
+              <span><a class="text-decoration-none text-light px-1" href="#"><i class="bi bi-youtube"></i></a></span>
+              <span><a class="text-decoration-none text-light px-1" href="#"><i class="bi bi-whatsapp"></i></a></span>
+              <span><a class="text-decoration-none text-light px-1" href="#"><i class="bi bi-telegram"></i></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-light fst-normal text-center">
+      <hr>
+      <i class="bi bi-c-circle">Copyright Swisskit.All Right Reserved</i>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- toottips -->
+    <script> 
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t=> {
+        new bootstrap.Tooltips(t)
+     })
+    </script> 
+
+</body>
+</html>
+  

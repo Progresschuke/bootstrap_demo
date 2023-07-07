@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #999;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.single-box {
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    background-color: #fff;
+    align-self: center;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 0;
+    z-index: 1;
+}
+
+.header-area.img1 {
+    background-image: url("../img/2.png");
+} 
+
+.header-area.img2 {
+    background-image: url("../img/6.png");
+} 
+
+.header-area.img3 {
+    background-image: url("../img/1.png");
+} 
+
+.header-area {
+    border-radius: 10px 10px 50% 0;
+    padding: 150px 30px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.body-area {
+    padding: 10px 30px;
+}
+
+.body-area h3 {
+    margin-top: 10px;
+    font-family: "roboto", serif;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.body-area h4 {
+    color: rgb(196, 5, 43);
+    font-size: 18px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-family: "roboto", serif;
+    letter-spacing: 1px;
+}
+
+.pro-text {
+    font-family: "nunito", serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.team {
+    background-color: #181111cb;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "roboto", sans-serif;
+    color: #ffffffe8;
+}
+
+.body-area p i {
+    padding-right: 20px;
+}
+
+footer{
+    margin-top: 2rem;
+}
+
